@@ -1,0 +1,23 @@
+
+{
+  "books": [
+    {
+      "id": "book123",
+      "title": "The Great Novel",
+      "author": "Jane Doe",
+      "description": "An epic tale of adventure...",
+      "thumbnailUrl": "https://example.com/thumb1.jpg",
+      "imageUrl": "https://example.com/image1.jpg",
+      "rating": 4.5
+    },
+    {
+      "id": "book456",
+      "title": "Android Development Made Easy",
+      "author": "John Developer",
+      "description": "Learn Android development...",
+      "thumbnailUrl": "https://example.com/thumb2.jpg",
+      "imageUrl": "https://example.com/image2.jpg",
+      "rating": 4.0
+    }
+  ]
+}
