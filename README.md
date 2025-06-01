@@ -2,7 +2,11 @@
 
 Solutions for Coding Assignments
 This document provides detailed explanations, design choices, and code (or pseudocode for larger projects) for three distinct coding assignments. Each solution aims to meet the specified requirements and constraints, demonstrating fundamental data structures, algorithms, and architectural patterns.
-Q1. Least Recently Used (LRU) Cache Implementation
+
+
+
+# Q1. Least Recently Used (LRU) Cache Implementation
+
 Problem Description
 Design and implement a Least Recently Used (LRU) Cache. A cache has a fixed capacity, and when it exceeds that capacity, it must evict the least recently used item to make space for the new one. The implementation must support get(key) and put(key, value) operations with O(1) time complexity.
 Solution Approach
@@ -25,7 +29,10 @@ Execute the compiled program:
 ./lru_cache
 
 The output will show the results of the get operations as per the example test case.
-Q2. Custom HashMap Implementation
+
+
+
+# Q2. Custom HashMap Implementation
 Problem Description
 Implement a simplified version of a HashMap (unordered map) from scratch, without using built-in hash table libraries. It must support put(key, value), get(key), and remove(key) operations in average-case O(1) time.
 Solution Approach
@@ -51,7 +58,11 @@ Execute the compiled program:
 ./my_hashmap
 
 The output will show the results of the get operations, demonstrating the HashMap's functionality.
-Q3. Android Book Review App MVP
+
+
+
+
+# Q3. Android Book Review App MVP
 Problem Description
 Implement a Minimum Viable Product (MVP) version of a Book Review App for Android. The app should allow users to browse a list of books from a fake API, view detailed information for each book, and save books locally as "favorites" for offline access. The app must adhere to specific architectural and technology stack constraints.
 Solution Approach (MVVM Architecture)
@@ -99,7 +110,9 @@ Build and Run: Sync Gradle, then run the application on an Android Emulator or a
 
 
 
-OpenGL ES Solar System on Android
+
+
+# OpenGL ES Solar System on Android
 This project demonstrates a basic 3D solar system visualization built using OpenGL ES 2.0/3.0 on Android. It features a glowing sun, orbiting planets, and a moon, with a simple camera control via touch input.
 
 Features
